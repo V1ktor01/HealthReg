@@ -1,0 +1,238 @@
+html{
+  scroll-behavior: smooth;
+  font-family: "Simplex", Times, serif;
+    font-weight: 900;
+    box-sizing: border-box;
+}
+body{
+background-image: linear-gradient(to top, #4838b4 0%, #3c59bd 80%);
+background-repeat: no-repeat;
+background-attachment: fixed;
+  }
+h1{
+  font-size: 60px;
+text-align: center;
+}
+
+h2{
+  font-size: 30px;
+}
+a{
+  text-decoration: none;
+}
+.menuside{
+      background-color: rgb(72, 56, 155);
+      height: 100%;
+      width: 200px;
+      margin-left: -10px;
+      margin-top: -10px;
+      color: white;
+      text-align: center;
+      position: fixed;
+}
+.buttons{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+.buttons:hover {opacity: 0.6;
+color:blue;}
+.btntext{
+  position: fixed;
+    bottom: 0px;
+    width: 180px;
+}
+.logo{
+  padding-top: 20px;
+  font-size: 30px;
+  border-bottom: inset;
+}
+.site{
+  text-align: center;
+    padding-top: 15px;
+    margin-right: -10px;
+}
+.first{
+  background-color: white;
+  padding-right: 100px;
+}
+.home{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    height: 700px;
+    margin-left: 24%;
+    color: white;
+}
+.btmtext{
+  height: 110%;
+}
+.toptext h1{
+border-bottom: inset;
+}
+.download{
+  color: white;
+      margin-left: 115px;
+      padding-top: 55px;
+      margin-top: 120px;
+      height: 103åpx;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.Contact{
+      margin-bottom: -50px;
+      background-color: black;
+      color: white;
+      width: 100%;
+      height: auto;
+      padding-left: 15%;
+}
+.Contact a{
+  color: white;
+}
+.Contact img{
+  width: 30px;
+position: absolute;
+margin-left: 50px;
+padding-top: 17px;
+
+}
+.Help{
+  font-size: 40px;
+    text-align: left;
+    height: auto;
+    width: 100%;
+    padding-left: 230px;
+}
+
+.buttons-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+}
+.dropdown-content a:hover {
+opacity: 1;
+  color: blue;
+}
+.homepage{
+  background-color: white;
+  height: auto;
+}
+
+.Help img{
+  width: 60%;
+}
+li{
+border-bottom: inset,
+}
+
+
+
+
+
+* {box-sizing: border-box;}
+.mySlides {display: none;}
+.mySlides img {vertical-align: middle;
+width: 100%;
+box-shadow: -17px 11px 20px 6px #23307a;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #ffffff;
+    font-size: 25px;
+    padding: 8px 12px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}

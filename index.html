@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HealthReg</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="menuside">
+    <div class="logo">
+        <a>HealthReg</a>
+    </div><!--logo slutar -->
+    <div class="buttons">
+      <a href="#menuside">About</a>
+    </div><!--Menu slutar -->
+    <div class="buttons">
+      <a href="#download">Download</a>
+    </div><!--Download slutar -->
+
+    <div class="buttons">
+      <a href="#Help">Help</a>
+      <div class="dropdown-content">
+        <a href="#How to start">How to start</a>
+        <a href="#Register">Register a day</a>
+        <a href="#Stats">Stats</a>
+        <a href="#Delete">Delete logs</a>
+        <a href="#Changeps">Change password</a>
+      </div>
+    </div>
+
+
+    <div class="buttons">
+      <a href="#Contact">Contact</a>
+    </div><!--Contact slutar -->
+    <div class="btntext">
+      <footer>Viktor Eriksson</footer>
+    </div>
+  </div><!--menuside slutar -->
+
+<div class="site">
+  <div class="home" id="menuside">
+    <div class="toptext">
+      <h1>HealthReg</h1>
+      <h2>Your own health diary!</h2>
+      </div>
+
+    <div class="btmtext">
+      <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="loginpng.jpg">
+        <div class="text">Safe notes with password and unsername login!</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="register.jpg">
+        <div class="text">Write down what you have done today!</div>
+      </div>
+
+      <div class="mySlides fade">
+        <img src="stats.jpg">
+        <div class="text">See stats over your recent days!</div>
+      </div>
+      </div>
+      <br>
+
+      <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 7000); // Change image every 2 seconds
+      }
+      </script>
+
+</div>
+</div> <!--home slutar -->
+
+<div class="download" id="download">
+<h2>Download HealthReg to start your documentary!</h2>
+<br>
+<button class="button"><span>Download</span></button>
+</div><!--download slutar -->
+
+<div class="first">
+<div class="Help" id="Help">
+  <h1>Help</h1>
+  <ul>
+  <li id="How to start">How to start:</li>
+  <h2>When you start the program you need to press "Register" to make an account!</h2>
+  <img src="registerhelp.jpg">
+  <br>
+  <li id="Register">Regsiter a day:</li>
+<img src="1.JPG">
+<h2>Press the button saying "Register your day!"</h2>
+
+<img src="2.JPG">
+<h2>Press smiley and press on the buttons that is what you have done today...</h2>
+
+<img src="3.JPG">
+<h2>Press on the activites you have done today. Press one time to make it green (this means that when you did this today it went great!)</h2>
+<h2>Press one more time on the green button to make it red (this means that it did not went so well today..)</h2>
+
+<img src="4.JPG">
+<h2>Write down what you will try do better tomorrow!</h2>
+  <br>
+  <li id="Stats">Show your stats:</li>
+<img src="stats1.JPG">
+  <h2>Press on the stats button to enter your stats!</h2>
+  <br>
+  <li id="Delete">Delete logs:</li>
+  <img src="delete1.JPG">
+  <h2>Press on the settings button</h2>
+    <img src="delete2.JPG">
+    <h2>Press on the logs you want to delete and press on the delete button!</h2>
+  <br>
+  <li id="Changeps">Change password:</li>
+  <h2>In settings..........................</h2>
+
+</ul>
+</div><!--Help slutar -->
+</div>
+<div class="Contact" id="Contact">
+  <h1>Contact</h1>
+  <h2>mail:</h2>
+  <p>Viktoreriksson@gmail.com</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" alt=""> <h2>insta</h2>
+  <a href="https://www.instagram.com/v1ktor01/?hl=sv">V1ktor01</a>
+  <p>©2019-Viktor Eriksson, Sweden- All rights reserved - </p>
+
+  <form action="https://paypal.me/v1ktor01?locale.x=sv_SE" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick">
+  <input type="hidden" name="hosted_button_id" value="92TZKHPM5****">
+  <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+  <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+  </form>
+
+</div><!--Contact slutar -->
+</div> <!--site slutar -->
+
+
+</body>
+
+</html>
